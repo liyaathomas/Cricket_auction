@@ -1,0 +1,84 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Virat Kohli",
+      "age": 35,
+      "role": "Batsman",
+      "basePrice": 100
+    },
+    {
+      "id": 2,
+      "name": "Rohit Sharma",
+      "age": 37,
+      "role": "Batsman",
+      "basePrice": 95
+    },
+    {
+      "id": 3,
+      "name": "Jasprit Bumrah",
+      "age": 31,
+      "role": "Bowler",
+      "basePrice": 120
+    },
+    {
+      "id": 4,
+      "name": "Mohammed Shami",
+      "age": 34,
+      "role": "Bowler",
+      "basePrice": 90
+    },
+    {
+      "id": 5,
+      "name": "Hardik Pandya",
+      "age": 31,
+      "role": "AllRounder",
+      "basePrice": 110
+    },
+    {
+      "id": 6,
+      "name": "Ravindra Jadeja",
+      "age": 36,
+      "role": "AllRounder",
+      "basePrice": 105
+    },
+    {
+      "id": 7,
+      "name": "KL Rahul",
+      "age": 33,
+      "role": "Batsman",
+      "basePrice": 85
+    },
+    {
+      "id": 8,
+      "name": "Mohammed Siraj",
+      "age": 31,
+      "role": "Bowler",
+      "basePrice": 80
+    },
+    {
+      "id": 9,
+      "name": "Axar Patel",
+      "age": 31,
+      "role": "AllRounder",
+      "basePrice": 75
+    },
+    {
+      "id": 10,
+      "name": "Shubman Gill",
+      "age": 25,
+      "role": "Batsman",
+      "basePrice": 100
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Royal Challengers Bengaluru"
+    },
+    {
+      "id": 2,
+      "name": "Mumbai Indians"
+    }
+  ]
+}
