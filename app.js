@@ -69,13 +69,9 @@ players.forEach((player, index) => {
         player.basePrice + 20
     );
 
-    if (index < 5) {
-        player.team = teams[0].name;
-        teams[0].addPlayer(player);
-    } else {
-        player.team = teams[1].name;
-        teams[1].addPlayer(player);
-    }
+    const teamIndex = index % 2 === 0 ? 0 : 1;
+player.team = teams[teamIndex].name;
+teams[teamIndex].addPlayer(player);
 
 });
 // Print Auction Result
