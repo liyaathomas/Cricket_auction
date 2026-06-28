@@ -7,7 +7,7 @@ class AuctionUtils {
 
     // Validate player's age
     static validateAge(player) {
-        return player.age > 18;
+        return player.age >= 18;
     }
 
     // Set sold price (should not be less than base price)
